@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>造梦人(北京)科技有限公司</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#ffffff;--bg2:#f5f7fa;--bg3:#eef1f5;
+  --card-bg:#ffffff;--card-border:#e2e8f0;
+  --text:#1a202c;--text2:#4a5568;--text3:#718096;
+  --accent:#1a6ef0;--accent-light:#e8f0fe;--accent-hover:#1557d0;
+  --gradient:linear-gradient(135deg,#1a6ef0,#6c3ce0);
+  --shadow:0 1px 3px rgba(0,0,0,.08);--shadow-hover:0 8px 30px rgba(26,110,240,.12);
+  --radius:12px;--transition:.3s cubic-bezier(.4,0,.2,1)
+}
+body{font-family:'Inter','Noto Sans SC',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+
+.navbar{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--card-border);transition:var(--transition)}
+.navbar.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.06)}
+.nav-inner{max-width:1400px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px}
+.nav-logo{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--text);font-weight:700;font-size:1.1rem}
+.nav-logo svg{width:38px;height:38px}
+.nav-links{display:flex;gap:.25rem}
+.nav-links a{color:var(--text2);text-decoration:none;padding:.5rem 1rem;border-radius:8px;font-size:.9rem;font-weight:500;transition:var(--transition)}
+.nav-links a:hover,.nav-links a.active{color:var(--accent);background:var(--accent-light)}
+.nav-right{display:flex;align-items:center;gap:.75rem}
+.lang-switch{display:flex;background:var(--bg3);border-radius:8px;overflow:hidden}
+.lang-switch button{padding:.4rem .75rem;border:none;cursor:pointer;font-size:.8rem;font-weight:600;font-family:inherit;background:transparent;color:var(--text3);transition:var(--transition)}
+.lang-switch button.active{background:var(--accent);color:#fff}
+.nav-cta{padding:.5rem 1.25rem;border-radius:8px;font-size:.85rem;font-weight:600;background:var(--accent);color:#fff;text-decoration:none;transition:var(--transition)}
+.nav-cta:hover{background:var(--accent-hover)}
+.mobile-menu-btn{display:none;background:none;border:none;color:var(--text);cursor:pointer;font-size:1.5rem}
+
+.hero{position:relative;min-height:90vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:6rem 2rem 4rem;overflow:hidden;background:linear-gradient(180deg,#f0f5ff 0%,#fff 100%)}
+.hero::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(ellipse at 30% 20%,rgba(26,110,240,.06) 0%,transparent 50%),radial-gradient(ellipse at 70% 70%,rgba(108,60,224,.04) 0%,transparent 50%)}
+.hero-grid{position:absolute;inset:0;opacity:.025;background-image:linear-gradient(rgba(26,110,240,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(26,110,240,.5) 1px,transparent 1px);background-size:60px 60px}
+.hero-content{position:relative;z-index:1;max-width:900px}
+.hero-badge{display:inline-block;padding:.35rem 1rem;border-radius:20px;background:var(--accent-light);color:var(--accent);font-size:.85rem;font-weight:500;margin-bottom:1.5rem}
+.hero h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:1rem;line-height:1.2}
+.hero h2{font-size:clamp(1.1rem,2.5vw,1.4rem);font-weight:400;color:var(--text2);margin-bottom:.75rem}
+.hero p{font-size:1.05rem;color:var(--text3);max-width:650px;margin:0 auto 2.5rem;line-height:1.7}
+.hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-primary{padding:.85rem 2rem;border-radius:10px;font-size:1rem;font-weight:600;border:none;cursor:pointer;transition:var(--transition);background:var(--accent);color:#fff;text-decoration:none}
+.btn-primary:hover{background:var(--accent-hover);transform:translateY(-2px);box-shadow:0 8px 30px rgba(26,110,240,.3)}
+.btn-secondary{padding:.85rem 2rem;border-radius:10px;font-size:1rem;font-weight:600;cursor:pointer;transition:var(--transition);background:transparent;border:1.5px solid var(--card-border);color:var(--text);text-decoration:none}
+.btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
+
+.stats{max-width:1200px;margin:0 auto;padding:3rem 2rem;display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+.stat-card{text-align:center;padding:2rem 1rem;border-radius:var(--radius);background:var(--card-bg);border:1px solid var(--card-border);transition:var(--transition)}
+.stat-card:hover{border-color:var(--accent);transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+.stat-num{font-size:2.5rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.stat-label{color:var(--text3);font-size:.9rem;margin-top:.5rem}
+
+.project-section{max-width:1400px;margin:0 auto;padding:4rem 2rem}
+.section-header{display:flex;align-items:center;gap:1rem;margin-bottom:2.5rem}
+.section-dot{width:12px;height:40px;border-radius:6px}
+.section-header h2{font-size:1.8rem;font-weight:700}
+.section-sub{color:var(--text3);font-size:.9rem;margin-top:.25rem}
+
+.project-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem}
+.project-card{background:var(--card-bg);border-radius:var(--radius);border:1px solid var(--card-border);overflow:hidden;transition:var(--transition)}
+.project-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:var(--shadow-hover)}
+.card-image{position:relative;width:100%;height:200px;overflow:hidden;background:var(--bg3)}
+.card-image img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.project-card:hover .card-image img{transform:scale(1.05)}
+.card-img-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+.card-play-btn{position:absolute;bottom:.5rem;right:.5rem;padding:.4rem .85rem;border-radius:8px;border:none;background:rgba(0,0,0,.7);color:#fff;font-size:.75rem;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:.3rem;transition:var(--transition)}
+.card-play-btn:hover{background:var(--accent)}
+.card-body{padding:1.25rem}
+.card-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem}
+.tag{padding:.2rem .6rem;border-radius:6px;font-size:.7rem;font-weight:500;background:var(--accent-light);color:var(--accent)}
+.card-title{font-size:1.05rem;font-weight:700;margin-bottom:.5rem;line-height:1.4}
+.card-partners{font-size:.78rem;color:var(--text3);margin-bottom:.75rem}
+.card-desc{font-size:.85rem;color:var(--text2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card-footer{display:flex;justify-content:space-between;align-items:center;margin-top:1rem;padding-top:.75rem;border-top:1px solid var(--card-border)}
+.card-year{font-size:.75rem;color:var(--text3)}
+.card-coop-badge{font-size:.7rem;padding:.2rem .6rem;border-radius:6px;background:#e8f8f0;color:#0a8f5c;border:1px solid rgba(10,143,92,.2)}
+
+.video-modal{display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.85);justify-content:center;align-items:center;padding:2rem}
+.video-modal.open{display:flex}
+.video-modal-inner{position:relative;width:100%;max-width:1000px;background:#000;border-radius:var(--radius);overflow:hidden}
+.video-modal-close{position:absolute;top:.75rem;right:.75rem;z-index:10;width:36px;height:36px;border-radius:50%;border:none;background:rgba(255,255,255,.15);color:#fff;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.video-modal-close:hover{background:rgba(255,0,0,.5)}
+.video-modal iframe,.video-modal video{width:100%;height:560px;border:none}
+.video-modal-title{padding:1rem 1.5rem;color:#fff;font-size:1.1rem;font-weight:600;background:#111}
+
+.footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:3rem 2rem 2rem;margin-top:4rem}
+.footer-inner{max-width:1400px;margin:0 auto}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:2rem}
+.footer-brand h3{font-size:1.1rem;margin-bottom:.75rem}
+.footer-brand p{color:var(--text3);font-size:.85rem;line-height:1.6}
+.footer-col h4{font-size:.9rem;margin-bottom:1rem}
+.footer-col a{display:block;color:var(--text3);text-decoration:none;font-size:.85rem;margin-bottom:.5rem;transition:var(--transition)}
+.footer-col a:hover{color:var(--accent)}
+.footer-bottom{padding-top:2rem;border-top:1px solid var(--card-border);text-align:center;color:var(--text3);font-size:.8rem}
+
+/* About page */
+.about-hero{background:var(--gradient);color:#fff;padding:6rem 2rem 3rem;text-align:center}
+.about-hero h1{font-size:2.2rem;font-weight:800;margin-bottom:.5rem}
+.about-hero p{opacity:.85;font-size:1.05rem}
+.about-section{max-width:1000px;margin:0 auto;padding:3rem 2rem}
+.about-section h2{font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent);display:inline-block}
+.about-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;margin:2rem 0}
+.about-card{background:var(--card-bg);border:1px solid var(--card-border);border-radius:var(--radius);padding:1.5rem}
+.about-card h3{font-size:1rem;font-weight:600;margin-bottom:.5rem;color:var(--accent)}
+.about-card p,.about-card li{font-size:.85rem;color:var(--text2);line-height:1.7}
+.about-card ul{padding-left:1.2rem;margin-top:.5rem}
+.info-table{width:100%;border-collapse:collapse;margin:1.5rem 0}
+.info-table td{padding:.6rem 1rem;border-bottom:1px solid var(--card-border);font-size:.9rem}
+.info-table td:first-child{font-weight:600;color:var(--text2);width:30%;white-space:nowrap}
+
+/* Partners page */
+.partners-hero{background:var(--gradient);color:#fff;padding:6rem 2rem 3rem;text-align:center}
+.partners-grid{max-width:1200px;margin:0 auto;padding:3rem 2rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1.5rem}
+.partner-item{text-align:center;padding:1.5rem 1rem;background:var(--card-bg);border:1px solid var(--card-border);border-radius:var(--radius);transition:var(--transition)}
+.partner-item:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);border-color:var(--accent)}
+.partner-logo{width:64px;height:64px;border-radius:16px;margin:0 auto .75rem;display:flex;align-items:center;justify-content:center}
+.partner-initial{font-size:1.5rem;font-weight:700}
+.partner-name{font-size:.85rem;font-weight:600;color:var(--text)}
+.partner-name-en{font-size:.7rem;color:var(--text3);margin-top:.2rem}
+.partner-cat{margin-bottom:2rem}
+.partner-cat h3{font-size:1.2rem;font-weight:700;margin-bottom:1rem;color:var(--accent)}
+
+/* Contact form */
+.contact-section{max-width:800px;margin:0 auto;padding:3rem 2rem}
+.contact-section h2{font-size:1.8rem;font-weight:700;margin-bottom:2rem;text-align:center}
+.form-group{margin-bottom:1.25rem}
+.form-group label{display:block;font-size:.85rem;font-weight:600;margin-bottom:.4rem;color:var(--text2)}
+.form-group input,.form-group textarea{width:100%;padding:.75rem 1rem;border:1.5px solid var(--card-border);border-radius:8px;font-size:.9rem;font-family:inherit;transition:var(--transition);background:var(--bg)}
+.form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(26,110,240,.1)}
+.form-group textarea{min-height:140px;resize:vertical}
+.form-submit{text-align:center;margin-top:2rem}
+.form-submit button{padding:.85rem 3rem;border-radius:10px;font-size:1rem;font-weight:600;border:none;cursor:pointer;background:var(--accent);color:#fff;transition:var(--transition)}
+.form-submit button:hover{background:var(--accent-hover);transform:translateY(-2px)}
+.form-success{display:none;text-align:center;padding:2rem;background:#e8f8f0;border-radius:var(--radius);color:#0a8f5c;font-weight:600}
+.contact-info{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin:2rem 0}
+.contact-info-item{padding:1.25rem;background:var(--bg2);border-radius:var(--radius)}
+.contact-info-item .label{font-size:.75rem;color:var(--text3);margin-bottom:.3rem}
+.contact-info-item .value{font-size:.9rem;font-weight:600;color:var(--text)}
+
+/* Mobile */
+@media (max-width:900px){
+  .nav-links{display:none}.mobile-menu-btn{display:block}
+  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:64px;left:0;right:0;background:#fff;padding:1rem;border-bottom:1px solid var(--card-border);box-shadow:0 10px 30px rgba(0,0,0,.08)}
+  .stats{grid-template-columns:repeat(2,1fr)}.project-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}.hero h1{font-size:1.8rem}
+}
+@media(max-width:600px){.stats{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.project-card{animation:fadeUp .5s ease-out both}
+.project-card:nth-child(1){animation-delay:.05s}.project-card:nth-child(2){animation-delay:.1s}
+.project-card:nth-child(3){animation-delay:.15s}.project-card:nth-child(4){animation-delay:.2s}
+.project-card:nth-child(5){animation-delay:.25s}.project-card:nth-child(6){animation-delay:.3s}
+.project-card:nth-child(7){animation-delay:.35s}.project-card:nth-child(8){animation-delay:.4s}
+::-webkit-scrollbar{width:7px}::-webkit-scrollbar-track{background:var(--bg2)}::-webkit-scrollbar-thumb{background:var(--text3);border-radius:4px}
+</style>
+</head></head>
+<body>
+<nav class="navbar" id="navbar">
+<div class="nav-inner">
+<a href="index.html" class="nav-logo">
+<svg viewBox="0 0 38 38" fill="none">
+<rect width="38" height="38" rx="10" fill="url(#dmlg)"/>
+<text x="7" y="27" font-size="18" font-weight="800" fill="#fff" font-family="Inter,sans-serif">DM</text>
+<defs><linearGradient id="dmlg" x1="0" y1="0" x2="38" y2="38"><stop stop-color="#1a6ef0"/><stop offset="1" stop-color="#6c3ce0"/></linearGradient></defs>
+</svg>
+<span class="cn">造梦人科技</span><span class="en" style="display:none">Dreammaker Tech</span>
+</a>
+<div class="nav-links" id="navLinks">
+<a href="index.html#dt" class="cn">数字孪生</a><a href="index.html#dt" class="en" style="display:none">Digital Twin</a>
+<a href="index.html#vr" class="cn">虚拟现实</a><a href="index.html#vr" class="en" style="display:none">Virtual Reality</a>
+<a href="index.html#is" class="cn">工业仿真</a><a href="index.html#is" class="en" style="display:none">Industrial Sim</a>
+<a href="index.html#gd" class="cn">游戏开发</a><a href="index.html#gd" class="en" style="display:none">Game Dev</a>
+</div>
+<div class="nav-right">
+<div class="lang-switch"><button id="btnZh" class="active" onclick="switchLang('zh')">中文</button><button id="btnEn" onclick="switchLang('en')">EN</button></div>
+<a href="contact.html" class="nav-cta cn">联系我们</a><a href="contact.html" class="nav-cta en" style="display:none">Contact</a>
+<button class="mobile-menu-btn" onclick="toggleMenu()">&#9776;</button>
+</div></div></nav>
+<section class="about-hero">
+<h1 class="cn">公司介绍</h1><h1 class="en" style="display:none">About Us</h1>
+<p class="cn">造梦人(北京)科技有限公司 — 数字孪生·三维可视化·智慧物联</p>
+<p class="en" style="display:none">Dreammaker (Beijing) Technology Co., Ltd.</p>
+</section>
+
+<section class="about-section">
+<h2 class="cn">公司概况</h2><h2 class="en" style="display:none">Overview</h2>
+<table class="info-table">
+<tr><td>公司名称</td><td>造梦人（北京）科技有限公司</td></tr>
+<tr><td>英文名称</td><td>Zaomengren (Beijing) Technology Co., Ltd.</td></tr>
+<tr><td>统一社会信用代码</td><td>91110106MA007BRP1U</td></tr>
+<tr><td>注册地址</td><td>北京市丰台区造甲街南里11号楼二层1554号</td></tr>
+<tr><td class="cn">公司定位</td><td class="cn">数字孪生、CIM与智慧城市领域科技型企业</td></tr>
+<tr><td class="en" style="display:none">Positioning</td><td class="en" style="display:none">Digital Twin, CIM & Smart City Technology Enterprise</td></tr>
+</table>
+
+<h2 class="cn">公司简介</h2><h2 class="en" style="display:none">Company Profile</h2>
+<div class="about-grid">
+<div class="about-card">
+<h3 class="cn">专注领域</h3><h3 class="en" style="display:none">Focus Areas</h3>
+<p class="cn">造梦人（北京）科技有限公司自成立以来，深耕虚拟现实（VR）、数据虚拟化、元宇宙领域近十载，是一家专注MR技术、平台和内容产品研发的智能MR供应商。公司自主研发多项数据智慧平台，结合传统行业实际需求，实现模块化、标准化、系统化、可复制、可扩展的标准化产品体系。</p>
+<p class="en" style="display:none">Dreammaker has been deeply engaged in VR, data virtualization, and metaverse for nearly a decade. We are an intelligent MR supplier focused on MR technology, platform, and content product R&D.</p>
+</div>
+<div class="about-card">
+<h3 class="cn">技术创新</h3><h3 class="en" style="display:none">Tech Innovation</h3>
+<p class="cn">公司融合AI人工智能协同实时计算处理、AI渲染、视频编解码、3D原生虚拟化等技术，打造了高位设备智慧教育平台、职业技能MR实训平台、数据虚拟化智慧平台、5G融媒体平台等核心产品。</p>
+<p class="en" style="display:none">We integrate AI real-time computing, AI rendering, video encoding/decoding, and 3D native virtualization to build core products across education, vocational training, data platforms, and 5G converged media.</p>
+</div>
+<div class="about-card">
+<h3 class="cn">业务覆盖</h3><h3 class="en" style="display:none">Business Coverage</h3>
+<p class="cn">以北京为中心，覆盖青岛、成都、合肥、上海、广州、武汉、沈阳、西安、杭州等主要城市。业务涵盖幼儿少儿编程、青少年创客教育、科技创新、产品定制、工业三维虚拟仿真视频制作、定制宣传视频、影视后期处理及教育服务。</p>
+<p class="en" style="display:none">Centered in Beijing, covering major cities across China. Business spans programming education, maker education, tech innovation, product customization, industrial 3D simulation videos, and post-production.</p>
+</div>
+</div>
+
+<h2 class="cn">核心优势</h2><h2 class="en" style="display:none">Core Advantages</h2>
+<div class="about-grid">
+<div class="about-card"><h3>&#x1F1E8;&#x1F1F3; 国产自主可控</h3><p>基于完全自主知识产权的DMPCS图形引擎，满足信创要求，不存在技术"卡脖子"风险。</p></div>
+<div class="about-card"><h3>&#x26A1; 零代码交付能力</h3><p>从模型场景、UI图表、3D交互到数据对接全流程零代码配置，大幅降低开发门槛，缩短项目周期。</p></div>
+<div class="about-card"><h3>&#x1F504; 多源数据融合</h3><p>支持BIM、倾斜摄影、GIS、3DTiles、IoT、工业模型等70余种格式无损融合。</p></div>
+<div class="about-card"><h3>&#x1F4A1; 全生命周期覆盖</h3><p>从规划、设计、施工到运维，提供贯穿项目建设全生命周期的数字化服务。</p></div>
+<div class="about-card"><h3>&#x1F5A5; C/S+B/S双架构</h3><p>既满足高性能桌面端渲染需求，也支持浏览器端轻量化访问。</p></div>
+<div class="about-card"><h3>&#x1F393; 顶尖团队</h3><p>研发团队来自清华、北大、中科院等知名院校，核心团队含多位博士及海归名校博士领衔。</p></div>
+</div>
+
+<h2 class="cn">资质与荣誉</h2><h2 class="en" style="display:none">Qualifications</h2>
+<div class="about-grid">
+<div class="about-card"><h3>&#x1F4DC; 软件著作权</h3><ul><li>拥有多项国家软件著作权</li><li>覆盖工业虚拟仿真、AI教育、编程平台等领域</li><li>自主知识产权体系完善</li></ul></div>
+<div class="about-card"><h3>&#x1F4CB; 专利</h3><ul><li>拥有多项实用新型专利及发明专利</li><li>覆盖机器人控制、智能教具、自动化装置等方向</li><li>持续技术创新与知识产权布局</li></ul></div>
+<div class="about-card"><h3>&#x1F3C6; 荣誉资质</h3><ul><li>"创青春"首都大学生创业大赛银奖</li><li>"互联网+"大学生创新创业大赛三等奖</li><li>中关村人才创客大赛百强团队</li><li>全国高校优秀创业项目百强</li></ul></div>
+<div class="about-card"><h3>&#x1F4CA; 行业标准</h3><ul><li>参编T/CECC32—2024系列标准</li><li>数据质量评估实施方法</li><li>数据质量评估指标体系</li><li>质量管理体系认证</li></ul></div>
+</div>
+
+<h2 class="cn">核心产品矩阵</h2><h2 class="en" style="display:none">Product Matrix</h2>
+<div class="about-grid">
+<div class="about-card"><h3>MR创作平台</h3><p>一体化3D场景编辑平台，提供"模型导入-场景编辑-UI图表-交互开发"全流程零代码功能，模型总量达千余款。</p></div>
+<div class="about-card"><h3>CIMDM数字孪生开发平台</h3><p>基于国产自主DMPCS图形引擎，全流程零代码开发，适用于城市CIM、智慧园区、智能制造等多行业场景。</p></div>
+<div class="about-card"><h3>智慧教育系列产品</h3><p>包括智慧教育平台、职业技能MR实训平台、K12人工智能技术学习平台等，已在全国百余所中小学及高校落地应用。</p></div>
+<div class="about-card"><h3>AI+数据平台产品</h3><p>融合大数据、IoT、AI技术，打造数据虚拟化智慧平台、5G Cloud XR融媒体平台等，赋能传统行业数字化转型。</p></div>
+</div>
+</section>
+
+<footer class="footer" id="contact">
+<div class="footer-inner">
+<div class="footer-grid">
+<div class="footer-brand">
+<h3 class="cn">造梦人(北京)科技有限公司</h3>
+<h3 class="en" style="display:none">Dreammaker (Beijing) Technology Co., Ltd.</h3>
+<p class="cn">以数字孪生、虚拟现实、工业仿真和游戏开发为核心能力，与行业领先伙伴携手共建创新数字解决方案。</p>
+<p class="en" style="display:none">Core capabilities in digital twin, VR, industrial simulation and game development.</p>
+</div>
+<div class="footer-col">
+<h4 class="cn">导航</h4><h4 class="en" style="display:none">Navigation</h4>
+<a href="index.html" class="cn">首页</a><a href="index.html" class="en" style="display:none">Home</a>
+<a href="about.html" class="cn">公司介绍</a><a href="about.html" class="en" style="display:none">About</a>
+<a href="partners.html" class="cn">合作生态</a><a href="partners.html" class="en" style="display:none">Partners</a>
+<a href="contact.html" class="cn">联系方式</a><a href="contact.html" class="en" style="display:none">Contact</a>
+</div>
+<div class="footer-col">
+<h4 class="cn">业务板块</h4><h4 class="en" style="display:none">Domains</h4>
+<a href="index.html#dt" class="cn">数字孪生项目</a><a href="index.html#dt" class="en" style="display:none">Digital Twin</a>
+<a href="index.html#vr" class="cn">虚拟现实项目</a><a href="index.html#vr" class="en" style="display:none">Virtual Reality</a>
+<a href="index.html#is" class="cn">工业仿真项目</a><a href="index.html#is" class="en" style="display:none">Industrial Sim</a>
+<a href="index.html#gd" class="cn">游戏开发项目</a><a href="index.html#gd" class="en" style="display:none">Game Dev</a>
+</div>
+<div class="footer-col">
+<h4 class="cn">网址</h4><h4 class="en" style="display:none">Links</h4>
+<a href="https://www.zaomengren.com.cn" target="_blank" class="cn">国内官网 zaomengren.com.cn</a>
+<a href="https://www.zaomengren.com.cn" target="_blank" class="en" style="display:none">China: zaomengren.com.cn</a>
+<a href="https://dreammaker-sg.top" target="_blank" class="cn">海外官网 dreammaker-sg.top</a>
+<a href="https://dreammaker-sg.top" target="_blank" class="en" style="display:none">Global: dreammaker-sg.top</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p class="cn">素材来源均为造梦人(北京)科技有限公司及授权合作方来源。Copyright &copy; 2026 Dreammaker (Beijing) Technology Co., Ltd.</p>
+<p class="en" style="display:none">All materials sourced from Dreammaker (Beijing) Technology Co., Ltd. and authorized partners. Copyright &copy; 2026 Dreammaker (Beijing) Technology Co., Ltd.</p>
+</div></div></footer>
+<script>
+let currentLang='zh';
+function switchLang(l){
+  currentLang=l;
+  document.getElementById('btnZh').classList.toggle('active',l==='zh');
+  document.getElementById('btnEn').classList.toggle('active',l==='en');
+  document.querySelectorAll('.cn').forEach(e=>e.style.display=l==='zh'?'':'none');
+  document.querySelectorAll('.en').forEach(e=>e.style.display=l==='en'?'':'none');
+  localStorage.setItem('dm-lang',l);
+}
+(function(){switchLang(localStorage.getItem('dm-lang')||'zh')})();
+window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50)});
+function toggleMenu(){document.getElementById('navLinks').classList.toggle('open')}
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t){t.scrollIntoView({behavior:'smooth',block:'start'});document.getElementById('navLinks').classList.remove('open')}})});
+</script>
+
+</body></html>

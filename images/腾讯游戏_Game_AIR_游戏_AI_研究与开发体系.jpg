@@ -1,0 +1,1808 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="csrf-token" content="T2haCrYI1R0GuRcQ33iKuy2h79jf2TiBRjk6aRLF">
+            <meta name="viewport" content="width=1200">
+                <title>腾讯游戏学堂</title>
+                <meta name="keywords" content="腾讯游戏，腾讯互动娱乐，腾讯游戏学堂，游戏学堂，梦想校园行，游戏策划公开课，腾讯NEXTIDEA，游戏创意大赛，腾讯Next Idea，腾讯游戏创意大赛，高校游戏创意制作大赛，高校美术创意大赛，新人课程，MINIGAME，进阶课程，资料集锦，TGDC，腾讯游戏开发者大会，TGC，腾讯游戏嘉年华，UP+，腾讯互动娱乐年度发布会，游戏专业，游戏实训，游戏美术，专业游戏开发，游戏设计，游戏原画，游戏专业人才培养，游戏学研究，开发者生态，游戏知识分享，行业交流，开发者扶持，GWB，腾讯游戏创意大赛，游戏创意">
+                <meta name="description" content="腾讯游戏学堂成立于2016年12月，致力于打造游戏知识分享和行业交流平台，专注于推动专业人才培养、游戏学研究和发展、开发者生态建设。通过与国内外高校合作推动游戏教育、学术研究和各类赛事，组织行业交流及开发者扶持活动，提供游戏类专业课程等，为游戏人创造更多可能。">
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <style>
+        .item-gzh .m-popup2__cnt {
+            left: auto;
+            animation:popupRiseX .2s 0s ease-in-out forwards;
+        }
+        .m-side2__inner:hover .m-popup2__cnt {
+            opacity: 0;
+            top: -99999px;
+            left: -99999px;
+            animation: none;
+        }
+    </style>
+    <link rel="stylesheet" href="https://xy.qpic.cn/v4/assets/app.e0238812.css">
+        <link rel="stylesheet" href="https://xy.qpic.cn/v4/assets/home.443e569a.css">
+    <link rel="canonical" href="http://gameinstitute.qq.com">
+</head>
+<body class="">
+    <div id="_app"
+             >
+        <header class="m-header">
+    <div class="m-header__wrap">
+        <a class="m-header__logo" href="/"><i class="header-logo"></i></a>
+        <nav class="m-header__nav">
+            <ul class="m-header__nav__list">
+                <li class="m-header__nav__item">
+                    <h3 class="m-header__nav__title">
+                        <a class="link" href="/">首&nbsp;&nbsp;页<sub class="lang-en">HOME</sub></a>
+                    </h3>
+                </li>
+                <li class="m-header__nav__item">
+                    <h3 class="m-header__nav__title">行业共建<sub class="lang-en">INDUSTRY</sub></h3>
+                    <div class="m-header__nav__menu long">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/tgdc/2022">TGDC</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="m-header__nav__item">
+                    <h3 class="m-header__nav__title">高校合作U+<sub class="lang-en">UNIVERSITY</sub></h3>
+                    <div class="m-header__nav__menu">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/college">赛事活动</a></li>
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/college/uplus">产学研成果</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="m-header__nav__item">
+                    <h3 class="m-header__nav__title">精品课程<sub class="lang-en">OPEN COURSES</sub></h3>
+                    <div class="m-header__nav__menu">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/course/%E4%B8%93%E9%A2%98/%E6%B8%B8%E6%88%8F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AF%84%E6%B5%8BMOOC">系列/专题</a></li>
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/course/%E4%BA%A7%E5%93%81/%E6%B8%B8%E6%88%8F%E7%AD%96%E5%88%92">产品</a></li>
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/course/%E6%8A%80%E6%9C%AF/%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91">技术</a></li>
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/course/%E8%AE%BE%E8%AE%A1/%E6%B8%B8%E6%88%8F%E7%BE%8E%E6%9C%AF2D%E8%AE%BE%E8%AE%A1">美术</a></li>
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/course/%E5%B8%82%E5%9C%BA/%E5%B8%82%E5%9C%BA%E7%A0%94%E7%A9%B6">市场</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="m-header__nav__item">
+                    <h3 class="m-header__nav__title">热门专栏<sub class="lang-en">FEATURES</sub></h3>
+                    <div class="m-header__nav__menu long">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a href="https://gameinstitute.qq.com/talk" class="link">问爆游戏人</a></li>
+                            <li class="menu-item"><a href="https://gameinstitute.qq.com/glad-you-played" class="link">很高兴你玩我的游戏</a></li>
+                            <li class="menu-item"><a href="https://gameinstitute.qq.com/knowledge" class="link">九号传送台</a></li>
+                            <li class="menu-item"><a href="https://gameinstitute.qq.com/gamer-one-day" class="link">游戏人的一天</a></li>
+                            <li class="menu-item"><a href="https://gameinstitute.qq.com/books" class="link">技术书籍</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="m-header__nav__item">
+                    <h3 class="m-header__nav__title">关于学堂<sub class="lang-en">ABOUT&nbsp;US</sub></h3>
+                    <div class="m-header__nav__menu long">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a class="link" target="_blank" href="https://gameinstitute.qq.com/aboutus">关于我们</a></li>
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/news">学堂资讯</a></li>
+                            <li class="menu-item"><a class="link" href="https://gameinstitute.qq.com/minigame">优秀游戏/作品展示</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="m-header__tools">
+            <div class="ariatools">
+                <div class="ariatools__enter">
+                    <i class="icon-ariatools-enter "></i>无障碍
+                </div>
+                <div class="ariatools__wrap">
+                    <ul class="ariatools__theme ariaskiptheme" @click="changeAriaTheme">
+                        <li class="ariatools__theme__item">
+                            <i class="icon-ariatools-font icon-ariatools-font-1 ariaskiptheme"></i>
+                            <span class="ariatools__text">默认配色</span>
+                        </li>
+                        <li class="ariatools__theme__item" data-theme="ariatheme-2">
+                            <i class="icon-ariatools-font icon-ariatools-font-2 ariaskiptheme"></i>
+                            <span class="ariatools__text">绿底白字</span>
+                        </li>
+                        <li class="ariatools__theme__item" data-theme="ariatheme-3">
+                            <i class="icon-ariatools-font icon-ariatools-font-3 ariaskiptheme"></i>
+                            <span class="ariatools__text">黑底黄字</span>
+                        </li>
+                        <li class="ariatools__theme__item" data-theme="ariatheme-4">
+                            <i class="icon-ariatools-font icon-ariatools-font-4 ariaskiptheme"></i>
+                            <span class="ariatools__text">咖啡底黄字</span>
+                        </li>
+                        <li class="ariatools__theme__item" data-theme="ariatheme-5">
+                            <i class="icon-ariatools-font icon-ariatools-font-5 ariaskiptheme"></i>
+                            <span class="ariatools__text">蓝底黄字</span>
+                        </li>
+                        <li class="ariatools__theme__item" data-theme="ariatheme-6">
+                            <i class="icon-ariatools-font icon-ariatools-font-6 ariaskiptheme"></i>
+                            <span class="ariatools__text">红底白字</span>
+                        </li>
+                        <li class="ariatools__theme__item" data-theme="ariatheme-7">
+                            <i class="icon-ariatools-font icon-ariatools-font-7 ariaskiptheme"></i>
+                            <span class="ariatools__text">黄底黑字</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vx-program">
+                <div class="vx-program__enter"><i class="header-vx-program ariaskiptheme"></i></div>
+                <div class="vx-program__area">
+                    <div class="vx-program__area__wrap"><img class="vx-program__qr" width="110" height="110" src="https://xy.qpic.cn/v4/assets/mini-apps.a36a93cc.png"></div>
+                </div>
+            </div>
+            <div class="search">
+                <div class="search__enter">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16.25 16.01" style="enable-background:new 0 0 16.25 16.01;" xml:space="preserve" class="header-search">
+                        <g>
+                            <path class="st0" d="M7.26,2c2.76,0,5,2.24,5,5c0,1.09-0.35,2.14-1.02,3.02l-0.41,0.54l-0.54,0.41C9.4,11.64,8.36,12,7.26,12c-2.76,0-5-2.24-5-5C2.26,4.24,4.5,2,7.26,2 M7.26,0c-3.87,0-7,3.13-7,7c0,3.87,3.13,7,7,7c1.59,0,3.06-0.54,4.24-1.44l3.43,3.44l1.33-1.34l-3.42-3.44c0.89-1.18,1.43-2.64,1.43-4.23C14.26,3.13,11.13,0,7.26,0L7.26,0z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="search__area">
+                    <div class="search__area__wrap">
+                        <div class="hot">
+                            <a href="https://gameinstitute.qq.com/course/detail/10032" target="_blank" class="hot-pic"><img width="230" height="127" src="https://game.gtimg.cn/images/gameinstitute/commonImg/108/1520218960104336.jpg" alt="《天涯明月刀》研运历程分享"> <span class="gico-play-1"></span></a>
+                            <p class="hot-title">《天涯明月刀》研运历程分享</p>
+                            <div class="hot-info">
+                                <span class="style">
+                                    <a href="https://gameinstitute.qq.com/search/course?keywords=制作人" target="_blank" class="style-1">制作人</a>
+                                    <span class="split">|</span>
+                                    <a href="https://gameinstitute.qq.com/search/course?keywords=项目分享" target="_blank" class="style-2">项目分享</a>
+                                </span>
+                                <span class="view">2.5W人看过</span>
+                            </div>
+                        </div>
+                        <div class="search__area__inner">
+                            <div class="search__bar">
+                                <form action="/search/course" method="get" target="_blank"><input name="keywords" type="text" placeholder="输入关键词..." class="search__key"> <button type="submit" class="search__btn">搜索</button></form>
+                            </div>
+                            <div class="keys">
+                                <a href="https://gameinstitute.qq.com/activity/twisted-egg/tiandao" target="_blank" class="key-label">学习打卡活动</a>
+                                <a href="/search/course?keywords=策划" target="_blank" class="key-label">策划</a>
+                                <a href="/search/course?keywords=美术" target="_blank" class="key-label">美术</a>
+                                <a href="/search/course?keywords=服务器" target="_blank" class="key-label">服务器</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-header__user">
+                                    <div class="m-header__user__login" v-show="!IS_LOGIN">
+                        <button id="btn-nav-login" class="m-header__user__login-btn" type="button" @click="login">登录</button>
+                    </div>
+                    <div class="m-header__user__logout" v-show="IS_LOGIN" v-cloak>
+                        <a class="m-header__user__name" target="_blank" href="https://gameinstitute.qq.com/user">
+                            <img class="m-header__user__avatar" width="40" height="40" :src="USER_INFO.avatar" :alt="USER_INFO.user_name"/>
+                        </a>
+                        <button class="m-header__user__logout-btn" type="button" @click="logOut">[退出]</button>
+                    </div>
+                            </div>
+            <div class="m-header__lang">
+                <a class="m-header__lang__item current" href="https://gameinstitute.qq.com">中</a><span class="m-header__lang__split">|</span><a class="m-header__lang__item" href="//gameinstitute.tencent.com">英</a>
+            </div>
+        </div>
+    </div>
+</header>
+            <div class="p-home">
+        <main class="container ariaskiptheme">
+            <div class="carousel__wrapper">
+                <swiper :options="swiper.banner" class="carousel" v-cloak>
+                                            <swiper-slide class="carousel__item">
+                            <a class="carousel__link" href="https://gameinstitute.qq.com/awards2026">
+                                <img width="1370" height="400" class="carousel__pic" src="https://tigimg-1252093452.image.myqcloud.com/2026/04/18/p753y503fsHaC8QJD9vl.png?imageView2/2/w/1380" alt="轮播图"/>
+                            </a>
+                        </swiper-slide>
+                                            <swiper-slide class="carousel__item">
+                            <a class="carousel__link" href="https://gameinstitute.qq.com/game-analysis">
+                                <img width="1370" height="400" class="carousel__pic" src="https://tigimg-1252093452.image.myqcloud.com/2026/03/26/nZR8B90QSlN34kPdry3g.png?imageView2/2/w/1380" alt="轮播图"/>
+                            </a>
+                        </swiper-slide>
+                                            <swiper-slide class="carousel__item">
+                            <a class="carousel__link" href="https://gameinstitute.qq.com/openlight">
+                                <img width="1370" height="400" class="carousel__pic" src="https://tigimg-1252093452.image.myqcloud.com/2025/06/19/xikFLyqW0IuqUXc3vVb2.png?imageView2/2/w/1380" alt="轮播图"/>
+                            </a>
+                        </swiper-slide>
+                                        <div class="swiper-pagination" slot="pagination"></div>
+                    <div class="swiper-button-prev" slot="button-prev"></div>
+                    <div class="swiper-button-next" slot="button-next"></div>
+                </swiper>
+            </div>
+            <gongyi-popup :show="showGongyiPopup" @close="showGongyiPopup=false"></gongyi-popup>
+            <div class="group">
+                <section class="row">
+                    <div class="row__head">
+                        <hgroup class="row__lang title-activity">
+                            <h2 class="row__lang-cn">最新推荐</h2>
+                            <h2 class="row__lang-en">RECOMMENDATION</h2>
+                        </hgroup>
+                    </div>
+                    <div class="row__cnt">
+                        <ul class="m-thumbnail2__list">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/awards2026" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2026/04/18/Dqro2Ow0ftmDy8AWsy8D.png">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">2026腾讯游戏创作大赛</h3>
+                                            <span class="m-thumbnail2__type">赛事</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://mp.weixin.qq.com/s/5W-vds0_9lzwdO8HvFFN_g?mpshare=1&amp;scene=1&amp;srcid=0418Qq9KbTiEGPnr3VRUvCMl&amp;sharer_shareinfo=d279321195961a90b132aaf10f48bbde&amp;sharer_shareinfo_first=d279321195961a90b132aaf10f48bbde&amp;color_scheme=light#rd" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2025/04/21/knk2TId9veBfHhnTQixB.png">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">十周年召回计划-大赛参赛者故事征集</h3>
+                                            <span class="m-thumbnail2__type">活动</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://mp.weixin.qq.com/s/lp-gWvppaIbYp1v9rZIzxA" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2025/08/22/Drv1vDMDFm7wlEuvRmJ6.png">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">3D动作竞技游戏如何打造长线爆款</h3>
+                                            <span class="m-thumbnail2__type">干货</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="row__head">
+                        <hgroup class="row__lang title-course">
+                            <h2 class="row__lang-cn">精品课程</h2>
+                            <h2 class="row__lang-en">THE CONTENT</h2>
+                        </hgroup>
+                    </div>
+                    <div class="row__cnt">
+                        <div class="m-tab2 row-tab2">
+                            <div class="m-tab2__container">
+                                <ul class="m-tab2__list" v-cloak>
+                                    <li class="m-tab2__item" :class="{ current: tab.course === 'subject' }" @mouseover="selectTab('course', 'subject')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/course/%E4%B8%93%E9%A2%98/%E6%B8%85%E5%8D%8E%E7%BE%8E%E9%99%A2%E4%BA%8C%E5%AD%A6%E4%BD%8D%E6%B8%B8%E6%88%8FMOOC" target="_blank">系列/专题课程</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.course === 'product' }" @mouseover="selectTab('course', 'product')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/course/%E4%BA%A7%E5%93%81/%E6%B8%B8%E6%88%8F%E7%AD%96%E5%88%92" target="_blank">产品</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.course === 'program' }" @mouseover="selectTab('course', 'program')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/course/%E6%8A%80%E6%9C%AF/%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91" target="_blank">技术</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.course === 'art' }" @mouseover="selectTab('course', 'art')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/course/%E8%AE%BE%E8%AE%A1/%E6%B8%B8%E6%88%8F%E7%BE%8E%E6%9C%AF2D%E8%AE%BE%E8%AE%A1" target="_blank">美术</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.course === 'market' }" @mouseover="selectTab('course', 'market')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/course/%E5%B8%82%E5%9C%BA/%E5%B8%82%E5%9C%BA%E7%A0%94%E7%A9%B6" target="_blank">市场</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="m-thumbnail2__list" v-show="tab.course === 'subject'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/game-analysis" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://xyp.qpic.cn/game-analysis/thumb/home.png" alt="游戏分析与评测MOOC">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏分析与评测MOOC</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">1w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/openlight" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2025/06/19/ReEcWtoTYzznntzLq0cU.png" alt="游戏美术OpenLight创造营">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏美术OpenLight创造营</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">4w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/special-topic/4" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2020/07/23/D7YuEJrIjqy6bboqaGJk.png" alt="游戏程序公开课">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏程序公开课</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">49w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/special-topic/6" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2020/07/23/1AJiEVzKhNc79TaHVslD.png" alt="游戏策划公开课">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏策划公开课</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">52w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/college/mooc/tsinghua" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig-30063.picsz.qpic.cn/2021/home/mooc-tsinghua.png" alt="清华美院游戏精品慕课">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">清华美院游戏精品慕课</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">5.2w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/special-topic/1" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2020/07/28/Qe5VHYRAHPf28VGgpLPB.png" alt="数字时装设计概论">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">数字时装设计概论</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">9.1w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.course === 'product'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10352" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://wdoc-76491.picgzc.qpic.cn/MTY4ODg1MDUyMzk2ODc4OQ_856307_h-ZesGHHT3HTHtBp_1766051344?w=756&amp;h=416" alt="射击游戏的趋势与典型案例分析（下）">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">射击游戏的趋势与典型案例分析（下）</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">0.89k</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10010" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://game.gtimg.cn/images/gameinstitute/commonImg/114/1510922523131232.jpg" alt="游戏策划的方方面面">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏策划的方方面面</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">13.48w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10347" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://wdoc-76491.picgzc.qpic.cn/MTY4ODg1MDUyMzk2ODc4OQ_24228_qybq3TCOc8HBih3R_1766050896?w=756&amp;h=416" alt="欧美游戏市场的历史与现状">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">欧美游戏市场的历史与现状</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">1.10k</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10237" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2020/06/10/TTIu2kvdzWqWt0uNrnv6.png" alt="开放世界与沙盒游戏">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">开放世界与沙盒游戏</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">13.01w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10201" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2019/10/17/zJ0rOv1w1kAXcaFRMfzH.png" alt="超出画面的设计——音频内容的标签化创新">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">超出画面的设计——音频内容的标签化创新</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">5.33w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10007" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://game.gtimg.cn/images/gameinstitute/commonImg/114/1510922236302397.jpg" alt="游戏之乐，不止于美！">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏之乐，不止于美！</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">8.44w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.course === 'program'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10112" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/11/02/q4GJh1EhvuYiSpOSZil7dhOHiFSoAqwFRLOEZdhc.jpeg" alt="游戏技能系统开发">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏技能系统开发</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">7.76w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10036" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/06/05/Q9uK3ya0xcfT8pFWMmdehriogzQBZ7QgexmIbpJH.png" alt="王者荣耀后台分享">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">王者荣耀后台分享</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">8.26w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10096" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/11/02/24uc2IqB8ptkMsq1OjOna5nbgP2jsZLTCVYkMCcf.jpeg" alt="服务器通信">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">服务器通信</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">7.49w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10117" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/11/02/r9LcmsHO4dKVIzeEp2fwe6zkZQTJBK1dhhTsttiB.jpeg" alt="游戏中的2D动画系统介绍">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏中的2D动画系统介绍</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">6.57w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10118" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/11/02/qDm6KMeSQo2PDXrvki3qBAkKC1k3gI3hyGGQichC.jpeg" alt="游戏实时渲染">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏实时渲染</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">7.35w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10230" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2020/06/10/SjzexxHRjgOX67frjmv9.png" alt="游戏服务器概述">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">游戏服务器概述</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">8.89w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.course === 'art'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10140" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/09/10/UGNBVJPFNTVRDIuNnIeuZbVzkF9LiYjClKTXGWJK.jpeg" alt="TGDC |如何持续打造产品IP影响力">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">TGDC |如何持续打造产品IP影响力</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">5.97w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10363" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://wdoc-76491.picgzc.qpic.cn/MTY4ODg1NjkzMjc4MzE0MA_150091_uQ9h_I7Z6ErKQGJK_1772692277?w=378&amp;h=208" alt="技术美术工具开发——从理念到落地">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">技术美术工具开发——从理念到落地</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">1.58k</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10282" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://wdoc-76491.picgzc.qpic.cn/MTY4ODg1NDgwNzY5Nzg5Mw_339594_FGjrUpLqXmpwLOvh_1749437641?w=378&amp;h=208" alt="沉浸式游戏交互设计">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">沉浸式游戏交互设计</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">1.32k</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10168" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2019/04/11/68JB00uSUjJJQxQ81aTt.jpg" alt="3D角色制作：发型制作方法">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">3D角色制作：发型制作方法</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">4.90w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10287" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://wdoc-76491.picgzc.qpic.cn/MTY4ODg1NDgwNzY5Nzg5Mw_171660_TJzR5s1hloeT-TfM_1749201915?w=378&amp;h=208" alt="影视动画类职能与能力概述">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">影视动画类职能与能力概述</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">0.67k</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10285" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://wdoc-76491.picgzc.qpic.cn/MTY4ODg1NDgwNzY5Nzg5Mw_549132_lTa42LIjqNxJaozz_1749439666?w=378&amp;h=208" alt="和平精英商业化时装设计探索">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">和平精英商业化时装设计探索</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">0.90k</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.course === 'market'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10041" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/06/05/UyanYgI7olXy6CwajjJhvTsHO1Qdq5xNVPYLKQgB.png" alt="CF产品基业长青背后的IP泛娱乐之路">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">CF产品基业长青背后的IP泛娱乐之路</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">10.28w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10205" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2019/10/17/qqiG4RLYFnfRyZFRlFbW.png" alt="教育游戏的价值及发展趋势">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">教育游戏的价值及发展趋势</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">10.02w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10134" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/08/30/UyeHi34jBtWza9U0CPE1kWIpwBxmv13NaEcD7SFy.jpeg" alt="TGDC | 创意与设计如何助力内容力构建">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">TGDC | 创意与设计如何助力内容力构建</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">10.10w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10149" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/10/25/xyTWUmrsGO7UubwGcjxUFOAPvyvmUcDvwHibiZVh.jpeg" alt="《王者荣耀》爆款背后的秘密">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">《王者荣耀》爆款背后的秘密</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">13.08w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10194" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2019/10/17/VG5fGdZ4srZcV0ySCCDG.png" alt="新文创，新在哪？创什么？如何创？——数字文化生产的进化与升级探索">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">新文创，新在哪？创什么？如何创？——数字文化生产的进化与升级探索</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">10.14w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/course/detail/10223" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2020/06/10/ca2s1oTBN2INfyydA97q.png" alt="互联网土壤中孕育的电竞产业">
+                                            <div class="m-thumbnail2__media">
+                                                <i class="icon-thumbnail2-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">互联网土壤中孕育的电竞产业</h3>
+                                            <div class="m-thumbnail2__related">
+                                                <div class="data">
+                                                    <div class="data__item">
+                                                        <i class="data__icon icon-thumbnail2-view"></i>
+                                                        <span class="data__text">16.12w</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="row__head">
+                        <hgroup class="row__lang title-topic">
+                            <h2 class="row__lang-cn">热门专栏</h2>
+                            <h2 class="row__lang-en">POPULAR COLUMNS</h2>
+                        </hgroup>
+                    </div>
+                    <div class="row__cnt">
+                        <div class="m-tab2 row-tab2">
+                            <div class="m-tab2__container">
+                                <ul class="m-tab2__list">
+                                    <li class="m-tab2__item" :class="{ current: tab.column === 'talk' }" @mouseover="selectTab('column', 'talk')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/talk" target="_blank">问爆游戏人</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.column === 'glad-you-played' }" @mouseover="selectTab('column', 'glad-you-played')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/glad-you-played" target="_blank">很高兴你玩我的游戏</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.column === 'knowledge' }" @mouseover="selectTab('column', 'knowledge')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/knowledge" target="_blank">九号传送台</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.column === 'game-one-day' }" @mouseover="selectTab('column', 'game-one-day')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/gamer-one-day" target="_blank">游戏人的一天</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.column === 'tech-book' }" @mouseover="selectTab('column', 'tech-book')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/books" target="_blank">技术书籍</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="m-thumbnail2__list" v-show="tab.column === 'glad-you-played'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="/glad-you-played#ep1" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig-30063.picsz.qpic.cn/activity/glad-you-played/ep1.jpg" alt="去飙车吗？能漂移的那种！">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">去飙车吗？能漂移的那种！</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="/glad-you-played#ep3" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig-30063.picsz.qpic.cn/activity/glad-you-played/ep3.jpg" alt="当美国女孩“画”出1200年前的唐诗">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">当美国女孩“画”出1200年前的唐诗</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="/glad-you-played#ep6" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig-30063.picsz.qpic.cn/activity/glad-you-played/ep6.jpg" alt="下棋原来是个进化的过程！">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">下棋原来是个进化的过程！</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.column === 'talk'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/talk/detail/10163" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2019/01/30/m47Bki9GDqH688aZpA4m.jpg" alt="腾讯Next《幽林怪谈》研发思路详解">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">腾讯Next《幽林怪谈》研发思路详解</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/talk/detail/10086" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/06/28/mtLiJcZOHcQHtHPP18P6bIF2WjfNzpcsJk7Vf0or.jpeg" alt="3D角色制作技巧">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">3D角色制作技巧</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/talk/detail/10078" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="//tigimg-1252093452.image.myqcloud.com/2018/06/29/iXuUlyXhPIAzp1rpkv7jP55G5F40T1ql03ECDift.jpeg" alt="五人团队如何管理百万用户级项目">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">五人团队如何管理百万用户级项目</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.column === 'game-one-day'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="/gamer-one-day#archive-10001" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig.qpic.cn/v3/img/game-day/imgs10-d990d8.jpg" alt="文学策划是研究唐诗宋词小说散文的">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">文学策划是研究唐诗宋词小说散文的</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="/gamer-one-day#archive-10002" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig.qpic.cn/v3/img/game-day/imgs09-a27d36e.jpg" alt="听~这是我们为你准备的声音">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">听~这是我们为你准备的声音</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="/gamer-one-day#archive-10008" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig.qpic.cn/v3/img/game-day/imgs03-d79a804.jpg" alt="为什么运营小姐姐的闹钟设在凌晨四点？">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">为什么运营小姐姐的闹钟设在凌晨四点？</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.column === 'knowledge'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/knowledge/100006" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2020/05/26/en9B4zSUb2UrNWbt0FlW.jpg" alt="拆！游戏数值拆解流程介绍">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">拆！游戏数值拆解流程介绍</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/knowledge/100005" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2020/05/26/7cOrbbbtwHlpSIsDASoM.jpg" alt="一个用理性设计的搞笑游戏">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">一个用理性设计的搞笑游戏</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/knowledge/100080" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2021/06/02/WCcSaig2UkCTUaB1T2LA.jpg" alt="在FPS游戏中与人博弈的快乐，你根本无法想象">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">在FPS游戏中与人博弈的快乐，你根本无法想象</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.column === 'tech-book'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/game-gems2" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://xy.qpic.cn/tig/img/feature/books/for_developer2/game-gems2.jpg" alt="《腾讯游戏开发精粹Ⅱ》">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">《腾讯游戏开发精粹Ⅱ》</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/game-gems" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig-30063.picsz.qpic.cn/2021/home/game-gems.png" alt="《腾讯游戏开发精粹》">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">《腾讯游戏开发精粹》</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/tech-ebook" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tig-30063.picsz.qpic.cn/2021/home/tech-ebook.png" alt="技术手册">
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">技术手册</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="row__head">
+                        <hgroup class="row__lang title-gameshow">
+                            <h2 class="row__lang-cn">优秀作品展示</h2>
+                            <h2 class="row__lang-en">GAME SHOW</h2>
+                        </hgroup>
+                    </div>
+                    <div class="row__cnt">
+                        <div class="m-tab2 row-tab2">
+                            <div class="m-tab2__container">
+                                <ul class="m-tab2__list">
+                                    <li class="m-tab2__item" :class="{ current: tab.works === 'minigame' }" @mouseover="selectTab('works', 'minigame')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/minigame" target="_blank">游戏作品</a>
+                                    </li>
+                                    <li class="m-tab2__item" :class="{ current: tab.works === 'art-competition' }" @mouseover="selectTab('works', 'art-competition')">
+                                        <a class="m-tab2__inner" href="https://gameinstitute.qq.com/minigame/art" target="_blank">美术作品</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="m-thumbnail2__list" v-show="tab.works === 'minigame'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/awards2024/awardWorks" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2025/06/10/aUQJlbgsBxJ7ChFDlkkt.png" alt="Proton &amp; Electron">
+                                            <div class="m-thumbnail2__tag">
+                                                <i class="medal-gold">2024金奖</i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <div class="m-thumbnail2__horizontal">
+                                                <h3 class="m-thumbnail2__title">Proton &amp; Electron</h3>
+                                                <p class="m-thumbnail2__horizontal__r">游戏创作大赛</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/yxds-2023/works/102362" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2025/07/01/7DaEPcwLpiWjtrC3pLsz.jpg" alt="境羽">
+                                            <div class="m-thumbnail2__tag">
+                                                <i class="medal-gold">2023金奖</i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <div class="m-thumbnail2__horizontal">
+                                                <h3 class="m-thumbnail2__title">境羽</h3>
+                                                <p class="m-thumbnail2__horizontal__r">游戏创作大赛</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/yxds-2023/works/102482" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2025/07/01/OVnjjd0J0ljzirdu5YJZ.jpg" alt="出狮">
+                                            <div class="m-thumbnail2__tag">
+                                                <i class="medal-gold">2023传统文化创新奖</i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <div class="m-thumbnail2__horizontal">
+                                                <h3 class="m-thumbnail2__title">出狮</h3>
+                                                <p class="m-thumbnail2__horizontal__r">游戏创作大赛</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <ul class="m-thumbnail2__list" v-cloak v-show="tab.works === 'art-competition'">
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/art-competition/2022/works/detail/103944" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2025/06/10/XfrDCVUVWWwMd4i7ybIx.jpg" alt="紫色夕阳">
+                                            <div class="m-thumbnail2__tag">
+                                                <i class="medal-gold"> 2022一等奖 </i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">紫色夕阳</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/art-competition/2021/works/103232#top-nav" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2022/05/16/ay34H7iSR5JjiySGuvy2.jpg" alt="永恒方舟 THE TOWER OF SELENE">
+                                            <div class="m-thumbnail2__tag">
+                                                <i class="medal-gold"> 2021特等奖 </i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">永恒方舟 THE TOWER OF SELENE</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a class="m-thumbnail2" href="https://gameinstitute.qq.com/art-competition/2021/works/102613#top-nav" target="_blank">
+                                        <div class="m-thumbnail2__view">
+                                            <img class="m-thumbnail2__cover" width="370" height="208" src="https://tigimg-1252093452.image.myqcloud.com/2022/05/16/ecLa7Uy7NX099RGwbbRb.png" alt="歼星">
+                                            <div class="m-thumbnail2__tag">
+                                                <i class="medal-gold"> 2021特等奖 </i>
+                                            </div>
+                                        </div>
+                                        <div class="m-thumbnail2__detail">
+                                            <h3 class="m-thumbnail2__title">歼星</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="group">
+                <section class="row">
+                    <div class="row__head">
+                        <hgroup class="row__lang title-news">
+                            <h2 class="row__lang-cn">学堂资讯</h2>
+                            <h2 class="row__lang-en">NEWS AND INFORMATION</h2>
+                        </hgroup>
+                        <a class="btn-more" href="https://gameinstitute.qq.com/news" target="_blank">更多<i class="btn-more__icon">&gt;</i></a>
+                    </div>
+                    <div class="row__cnt">
+                        <div class="news">
+                                                            <a class="news__item" href="https://gameinstitute.qq.com/news/detail/309" target="_blank">
+                                    <div class="news__figure"><img src="https://tigimg-1252093452.image.myqcloud.com/2026/05/22/jUJu42hFrzFzOmShvMGo.jpg" alt="「探索AI游戏 · 开发新可能」AI游戏工作坊-清华大学站圆满举办"></div>
+                                    <div class="news__info">
+                                        <h3 class="news__title">「探索AI游戏 · 开发新可能」AI游戏工作坊-清华大学站圆满举办</h3>
+                                                                                    <p class="news__desc">5 月 14 日下午，「探索 AI 游戏·开发新可能」AI 游戏工作坊在清华大学李兆基科技大楼 B148 成功举办。</p>
+                                                                                <div class="news__time"><i class="icon-time"></i>2026.05.22</div>
+                                    </div>
+                                </a>
+                                                            <a class="news__item" href="https://gameinstitute.qq.com/news/detail/308" target="_blank">
+                                    <div class="news__figure"><img src="https://tigimg-1252093452.image.myqcloud.com/2025/05/19/m3jBVAu8VmTedc14OxPR.jpg" alt="“无尽之焰”点燃未来，2025届互动媒体设计与技术培养项目（IMDT）毕业展启幕"></div>
+                                    <div class="news__info">
+                                        <h3 class="news__title">“无尽之焰”点燃未来，2025届互动媒体设计与技术培养项目（IMDT）毕业展启幕</h3>
+                                                                                <div class="news__time"><i class="icon-time"></i>2025.05.15</div>
+                                    </div>
+                                </a>
+                                                            <a class="news__item" href="https://gameinstitute.qq.com/news/detail/304" target="_blank">
+                                    <div class="news__figure"><img src="https://tigimg-1252093452.image.myqcloud.com/2025/04/09/ntNuhG4D2OorUsPcOPW7.jpg" alt="腾讯游戏与Unity中国共同推出游戏光照云烘焙解决方案"></div>
+                                    <div class="news__info">
+                                        <h3 class="news__title">腾讯游戏与Unity中国共同推出游戏光照云烘焙解决方案</h3>
+                                                                                <div class="news__time"><i class="icon-time"></i>2025.01.09</div>
+                                    </div>
+                                </a>
+                                                    </div>
+                    </div>
+                </section>
+                <section class="row row-voice">
+                    <div class="row__head">
+                        <hgroup class="row__lang title-voice">
+                            <h2 class="row__lang-cn">伙伴心声</h2>
+                            <h2 class="row__lang-en">VOICE OF PARTNERS</h2>
+                        </hgroup>
+                    </div>
+                    <div class="row__cnt">
+                        <swiper class="column" :options="swiper.partners">
+                            <swiper-slide class="column__item">
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/crl.jpg" alt="陈如龙">
+                                            <div class="voice__info">
+                                                <div class="voice__name">陈如龙</div>
+                                                <div class="voice__school">浙江大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">腾讯游戏学堂是一个让梦想起飞的地方，给我带来不同的游戏体验，在这里可以专注学习并创造快乐。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/wyf.jpg" alt="武逸峰">
+                                            <div class="voice__info">
+                                                <div class="voice__name">武逸峰</div>
+                                                <div class="voice__school">北京大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">与传统的讲座系列的浅尝辄止不同，不仅可以提前感受游戏的基础制作流程，也能结识一堆志同道合的小伙伴。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/lmy.jpg" alt="李明宇">
+                                            <div class="voice__info">
+                                                <div class="voice__name">李明宇</div>
+                                                <div class="voice__school">北京大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">在这短短几个月的学习时间里，学堂给了我一个快速成长的机会，让希望踏入游戏行业的我迈出了这关键的一步。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/msj.jpg" alt="苗书瑾">
+                                            <div class="voice__info">
+                                                <div class="voice__name">苗书瑾</div>
+                                                <div class="voice__school">北京电影学院</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">在几个月的赛程里认识了许多伙伴和暖心的导师，现在对设计流程更加熟悉，也得到了梦寐以求的创作项目机会。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_xyl.jpg" alt="谢雅莉">
+                                            <div class="voice__info">
+                                                <div class="voice__name">谢雅莉</div>
+                                                <div class="voice__school">中国美术学院</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">腾讯游戏学堂让我们有更大的机会来做成游戏作品。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_zjy.jpg" alt="张家瑜">
+                                            <div class="voice__info">
+                                                <div class="voice__name">张家瑜</div>
+                                                <div class="voice__school">武汉大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">找到了方法论，从只凭感觉做设计的状态毕业了。</p>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide class="column__item">
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_zty.jpg" alt="张天仪">
+                                            <div class="voice__info">
+                                                <div class="voice__name">张天仪</div>
+                                                <div class="voice__school">中央美术学院</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">高校美术大赛给了我一个很好的展示自我和提升自己的机会，感谢导师的指导，也希望学堂进一步越办越好呀！</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_zzf.jpg" alt="张梓峰">
+                                            <div class="voice__info">
+                                                <div class="voice__name">张梓峰</div>
+                                                <div class="voice__school">中国美术学院</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">通过一系列的讲座，我学到了非常多的游戏设计内容,学堂给了我一个快速成长和接近游戏行业的机会。在了解行业设计流程和设计技能的提高上对我非常有帮助！祝腾讯游戏学堂越办越好，让更多的朋友能够步入自己心仪的游戏行业！</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_zly.jpg" alt="邹丽媛">
+                                            <div class="voice__info">
+                                                <div class="voice__name">邹丽媛</div>
+                                                <div class="voice__school">重庆大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">感谢腾讯游戏学堂为我们提供优质专业的平台，游戏本就有着超越其娱乐精神的文化内涵，期待更多优秀的作品被发掘，期待更多的创造者被点亮。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/zdw.jpg" alt="朱迪威">
+                                            <div class="voice__info">
+                                                <div class="voice__name">朱迪威</div>
+                                                <div class="voice__school">上海交通大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">通过程序公开课，对于游戏研发过程有了深入的了解，感谢学堂让我们在踏入游戏行业前学习到这些知识。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/lzl.jpg" alt="李子龙">
+                                            <div class="voice__info">
+                                                <div class="voice__name">李子龙</div>
+                                                <div class="voice__school">上海交通大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">对于一个游戏从构思、设计再到实现的过程有了充分的了解，坚信好的游戏将会让我们的生活更加美好！</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/szy.jpg" alt="史昭阳">
+                                            <div class="voice__info">
+                                                <div class="voice__name">史昭阳</div>
+                                                <div class="voice__school">上海交通大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">感谢腾讯游戏学堂，游戏改变世界，设计并开发出一款好的游戏是我的梦想！</p>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide class="column__item">
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/pyd.jpg" alt="蒲宇狄">
+                                            <div class="voice__info">
+                                                <div class="voice__name">蒲宇狄</div>
+                                                <div class="voice__school">清华大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">首次系统化的走进游戏设计的神秘世界，更多的感受到一款游戏背后包含了怎样的艰辛与制作者注入的灵魂。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_dxr.jpg" alt="狄心如">
+                                            <div class="voice__info">
+                                                <div class="voice__name">狄心如</div>
+                                                <div class="voice__school">中国美术学院</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">在比赛过程中学习提升了很多，算是一次自我突破，同时也认识了很多非常优秀的朋友，是一次很丰富的体验，谢谢腾讯游戏学堂组织的美术大赛。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_ggy.jpg" alt="郭共殷">
+                                            <div class="voice__info">
+                                                <div class="voice__name">郭共殷</div>
+                                                <div class="voice__school">香港中文大学（深圳）</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">一年前的我们连要用什么软件做游戏，要怎么让一个人物动起来都不知道。作为财经类院校学生，想找到一个游戏开发指路人实在太难，有问题都不知道该去哪问。偶然间发现腾讯游戏学堂出品的各种视频、书籍和业内人士分享，发现了一个很好的比赛可以参加，帮我们在摸石头过河的道路上指引方向，无比感恩组委会！</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_xwt.jpg" alt="解温特">
+                                            <div class="voice__info">
+                                                <div class="voice__name">解温特</div>
+                                                <div class="voice__school">南京大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">腾讯游戏学堂的程序公开课和游戏比赛都非常有意思，夏令营的几天时间让我对游戏从设计到落地有了更深的理解，周围的前辈们也非常nice。时间不长，但成长很多，希望游戏学堂可以越办越好！</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_ljq.jpg" alt="梁剑桥">
+                                            <div class="voice__info">
+                                                <div class="voice__name">梁剑桥</div>
+                                                <div class="voice__school">浙江传媒学院</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">游戏不仅仅是纯粹的娱乐，我始终相信它可以作为伟大艺术的表达媒介，也希望人们能越来越正视游戏的力量。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_lsc.jpg" alt="刘朔诚">
+                                            <div class="voice__info">
+                                                <div class="voice__name">刘朔诚</div>
+                                                <div class="voice__school">中国传媒大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">腾讯游戏学堂给了我很多帮助 让我结识很多朋友之外也让我学习到了很多知识， 是一个刺激又有挑战的地方，谢谢腾讯游戏学堂。</p>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide class="column__item">
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/gx.jpg" alt="顾乡">
+                                            <div class="voice__info">
+                                                <div class="voice__name">顾乡</div>
+                                                <div class="voice__school">清华大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">为我打开了游戏设计的大门，祝愿腾讯游戏学堂越办越好，让更多的游戏爱好者步入游戏制作的殿堂！</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/ghx.jpg" alt="宫海翔">
+                                            <div class="voice__info">
+                                                <div class="voice__name">宫海翔</div>
+                                                <div class="voice__school">吉林动画学院</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">短短几个月，通过腾讯游戏学堂导师悉心的辅导，让我对特效有了全新的理解，感谢学堂提供的学习平台和机会。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/yg.jpg" alt="杨刚">
+                                            <div class="voice__info">
+                                                <div class="voice__name">杨刚</div>
+                                                <div class="voice__school">上海交通大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">通过系统的学习逐步了解到游戏程序的全貌，也对自己在游戏开发中所承担的角色有了更清楚的认识。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/zzp.jpg" alt="张智鹏">
+                                            <div class="voice__info">
+                                                <div class="voice__name">张智鹏</div>
+                                                <div class="voice__school">复旦大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">腾讯游戏学堂的梦想校园行，让我首次系统化的走进游戏设计的神秘世界，让我对走进游戏制作行业多了一份期待。</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_wqt.jpg" alt="汪擎天">
+                                            <div class="voice__info">
+                                                <div class="voice__name">汪擎天</div>
+                                                <div class="voice__school">中山大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">偶然接触到腾讯游戏学堂的项目，得以让我一窥游戏制作流程的全貌，更是我开启职业生涯前的一次重要体验，祝腾讯游戏学堂越办越好！</p>
+                                    </div>
+                                </div>
+                                <div class="voice">
+                                    <div class="voice__inner">
+                                        <div class="voice__user"><img class="voice__avatar" width="54" height="54" src="https://xy.qpic.cn/img/index/avatar/xs_wjt.jpg" alt="王灏天">
+                                            <div class="voice__info">
+                                                <div class="voice__name">王灏天</div>
+                                                <div class="voice__school">电子科技大学</div>
+                                            </div>
+                                        </div>
+                                        <p class="voice__desc">通过腾讯在我校开办的游戏设计与开发实践课程，我和小伙伴一起完整的体验了一款游戏从设计构思到动手开发再到上线运营的过程。这段经历让我在团队协作和游戏设计方面都有了快速的成长。</p>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <div class="swiper-pagination" slot="pagination"></div>
+                        </swiper>
+                    </div>
+                </section>
+                <section class="row row-school">
+                    <div class="row__head">
+                        <hgroup class="row__lang title-school">
+                            <h2 class="row__lang-cn">合作院校</h2>
+                            <h2 class="row__lang-en">COOPERATIVE INSTITUTIONS</h2>
+                        </hgroup>
+                    </div>
+                    <div class="row__cnt">
+                        <ul class="school-list">
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/qh.png" alt="清华大学" title="清华大学"></div>
+                                <div class="school-name"> 清华大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/bj.png" alt="北京大学" title="北京大学"></div>
+                                <div class="school-name"> 北京大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/bjsf.png" alt="北京师范大学" title="北京师范大学"></div>
+                                <div class="school-name"> 北京师范大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/zgrm.png" alt="中国人民大学" title="中国人民大学"></div>
+                                <div class="school-name"> 中国人民大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/shjt.png" alt="上海交通大学" title="上海交通大学"></div>
+                                <div class="school-name"> 上海交通大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/zj.png" alt="浙江大学" title="浙江大学"></div>
+                                <div class="school-name"> 浙江大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/zgms.png" alt="中国美术学院" title="中国美术学院"></div>
+                                <div class="school-name"> 中国美术学院 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/dzkj.png" alt="电子科技大学" title="电子科技大学"></div>
+                                <div class="school-name"> 电子科技大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/hnlg.png" alt="华南理工大学" title="华南理工大学"></div>
+                                <div class="school-name"> 华南理工大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/hzkj.png" alt="华中科技大学" title="华中科技大学"></div>
+                                <div class="school-name"> 华中科技大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/nj.png" alt="南京大学" title="南京大学"></div>
+                                <div class="school-name"> 南京大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/hebgy.png" alt="哈尔滨工业大学" title="哈尔滨工业大学"></div>
+                                <div class="school-name"> 哈尔滨工业大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/gzms.png" alt="广州美术学院" title="广州美术学院"></div>
+                                <div class="school-name"> 广州美术学院 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/zgkxy.png" alt="中国科学院" title="中国科学院"></div>
+                                <div class="school-name"> 中国科学院 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/zgkj.png" alt="中国科技大学" title="中国科技大学"></div>
+                                <div class="school-name"> 中国科技大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/zs.png" alt="中山大学" title="中山大学"></div>
+                                <div class="school-name"> 中山大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/xalg.png" alt="西安理工大学" title="西安理工大学"></div>
+                                <div class="school-name"> 西安理工大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/xjpgl.png" alt="新加坡国立大学" title="新加坡国立大学"></div>
+                                <div class="school-name"> 新加坡国立大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/njz.png" alt="南加州大学" title="南加州大学"></div>
+                                <div class="school-name"> 南加州大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/hk.png" alt="香港大学" title="香港大学"></div>
+                                <div class="school-name"> 香港大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/hkcity.png" alt="香港城市大学" title="香港城市大学"></div>
+                                <div class="school-name"> 香港城市大学 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/mslg.png" alt="麻省理工学院" title="麻省理工学院"></div>
+                                <div class="school-name"> 麻省理工学院 </div>
+                            </li>
+                            <li class="school-item">
+                                <div class="school-logo"><img width="76" height="76" src="https://xy.qpic.cn/img/index/school/ny.png" alt="纽约大学" title="纽约大学"></div>
+                                <div class="school-name"> 纽约大学 </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="row row-partner">
+                    <div class="row__head">
+                        <hgroup class="row__lang title-partner">
+                            <h2 class="row__lang-cn">合作伙伴</h2>
+                            <h2 class="row__lang-en">THE PARTNER</h2>
+                        </hgroup>
+                    </div>
+                    <div class="row__cnt">
+                        <div class="partners">
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/timi.9fed44d5.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/guangzi.2d825402.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/beijiguang.5a219677.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/mofang.69003497.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/next.0041a49b.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/dream-plan.121ffb7c.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/wegame.3332ebce.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/jiguang-plan.3cfe4f77.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/cloud-oversea.2694133a.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/tx-cloud.ce3679a9.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/intel.c69f1907.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/youziwang.d1b3fe9f.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/youxiputao.b9826d12.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/chule.73e1fbbf.png" alt="logo"></div>
+                            <div class="partners__item"><img width="170" height="60" src="https://xy.qpic.cn/v4/assets/youyanshe.e5e6d851.png" alt="logo"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+        <footer class="m-footer">
+    <section class="m-footer__container">
+        <div class="m-footer__main">
+            <div class="m-footer__main-inner">
+                <div class="m-footer__link-group">
+                    <h3 class="m-footer__link-title">友情链接</h3><a class="m-footer__link-item" href="https://game.qq.com/" target="_blank">腾讯游戏</a><a class="m-footer__link-item" href="https://daxuepc.com/" target="_blank">腾讯学堂</a><a class="m-footer__link-item" href="https://ke.qq.com/" target="_blank">腾讯课堂</a><a class="m-footer__link-item" href="https://tgideas.qq.com/" target="_blank">TGideas</a>
+                </div>
+                <div class="m-footer__link-group">
+                    <h3 class="m-footer__link-title">法律信息</h3><a class="m-footer__link-item" href="https://gameinstitute.qq.com/about/agreement" target="_blank">用户协议</a><a class="m-footer__link-item" href="https://gameinstitute.qq.com/about/knowledge" target="_blank">产权声明</a><a class="m-footer__link-item" href="https://gameinstitute.qq.com/about/complaint" target="_blank">侵权投诉指引</a><a class="m-footer__link-item" href="https://rule.tencent.com/rule/preview/e7d8bdd4-9d13-4b59-a00a-39e1b65f22fd" target="_blank">隐私协议</a>
+                </div>
+                <div class="m-footer__link-group">
+                    <h3 class="m-footer__link-title">联系我们</h3>
+                    <div class="m-footer__link-item">
+                        <div class="m-popup2 popup--right footer-feedback">
+                            <div class="m-popup2__enter">微信在线反馈</div>
+                            <div class="m-popup2__cnt">
+                                <div class="footer-feedback__qrcode"><img class="footer-feedback__pic" width="110" height="110" src="https://xy.qpic.cn/v4/assets/kefu.png" alt="微博二维码">
+                                    <p class="footer-feedback__text">微信在线反馈</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__logo"><i class="footer-logo"></i></div>
+        </div>
+        <p class="copyright">Copyright © 1998 - 2023 Tencent. All Rights Reserved. 腾讯公司 版权所有. 粤B2-20090059-5</p>
+    </section>
+</footer>
+    <div class="m-side2 ariaskiptheme">
+        <div class="m-side2__inner">
+            <div class="m-side2__item item-gzh">
+                <div class="m-popup2 popup--left">
+                    <div class="m-popup2__enter">
+                      <i class="m-side2__icon g-icon-gzh"></i>
+                      <div class="m-side2__text">公众号</div>
+                    </div>
+                    <div class="m-popup2__cnt">
+                        <div class="qrcode">
+                            <img class="qrcode__pic" width="110" height="110" src="https://xy.qpic.cn/v4/assets/weixin.3eac2d9f.png" alt="公众号二维码">
+                            <p class="qrcode__text">学更多游戏知识</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-side2__item item-video">
+                <div class="m-popup2 popup--left">
+                    <div class="m-popup2__enter">
+                      <i class="m-side2__icon g-icon-video"></i>
+                      <div class="m-side2__text">视频号</div>
+                    </div>
+                    <div class="m-popup2__cnt">
+                        <div class="qrcode"><img class="qrcode__pic" width="110" height="110" src="https://xy.qpic.cn/v4/assets/video.af9ea047.png" alt="视频号二维码">
+                            <p class="qrcode__text">视频号</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-side2__item item-bilibili">
+                <div class="m-popup2 popup--left">
+                    <div class="m-popup2__enter">
+                      <i class="m-side2__icon g-icon-bilibili"></i>
+                      <div class="m-side2__text">B站</div>
+                    </div>
+                    <div class="m-popup2__cnt">
+                        <div class="qrcode"><img class="qrcode__pic" width="110" height="110" src="https://xy.qpic.cn/v4/assets/bilibili-qrcode.3bc5358a.png" alt="B站二维码">
+                            <p class="qrcode__text">B站</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-side2__item item-weibo">
+                <div class="m-popup2 popup--left">
+                    <div class="m-popup2__enter">
+                      <i class="m-side2__icon g-icon-weibo"></i>
+                      <div class="m-side2__text">微博</div>
+                    </div>
+                    <div class="m-popup2__cnt">
+                        <div class="qrcode"><img class="qrcode__pic" width="110" height="110" src="https://xy.qpic.cn/v4/assets/weibo-qrcode.123e4e15.png" alt="微博二维码">
+                            <p class="qrcode__text">微博</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="m-side2__item item-backup" href="javascript:" onclick="window.scrollTo(0, 0)">
+            <i class="m-side2__icon g-icon-backup"></i>
+        </a>
+    </div>
+
+        <login ref="login" @getuserinfo="getUserInfo"></login>
+    </div>
+        <script type="text/javascript" src="https://xy.qpic.cn/tig/js/app/homepage.ad72ff.js"></script>
+    <script type="text/javascript" src="https://beaconcdn.qq.com/sdk/4.2.4/beacon_web.min.js"></script>
+    <script type="text/javascript">
+        // 访问数据上报
+        var tigBeacon = new BeaconAction({ appkey: "0WEB01RKTA4WL0VB" });
+        tigBeacon.onDirectUserAction('v_page', {
+            'page': location.href,
+            'user_id': 0,
+            'time': new Date().getTime(),
+            'page_id': 'pc'
+        });
+
+        var beacon = new BeaconAction({ appkey: "0WEB0TOIJB4ETTK3" });
+        beacon.onDirectUserAction('view-page', {
+            'page': location.href,
+            'user_id': 0,
+            'time': new Date().getTime(),
+            'page_id': 'pc',
+            'from': 'tig'
+        });
+    </script>
+</body>
+</html>
