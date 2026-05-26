@@ -118,8 +118,8 @@ body{font-family:'Inter','Noto Sans SC',sans-serif;background:var(--bg);color:va
 .partners-grid{max-width:1200px;margin:0 auto;padding:3rem 2rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1.5rem}
 .partner-item{text-align:center;padding:1.5rem 1rem;background:var(--card-bg);border:1px solid var(--card-border);border-radius:var(--radius);transition:var(--transition)}
 .partner-item:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);border-color:var(--accent)}
-.partner-logo-svg{width:72px;height:72px;margin:0 auto .5rem}.partner-logo-svg svg{width:100%;height:100%}.partner-logo{width:64px;height:64px;border-radius:16px;margin:0 auto .75rem;display:flex;align-items:center;justify-content:center}
-.partner-initial{display:none;font-size:1.5rem;font-weight:700}
+.partner-logo{width:64px;height:64px;border-radius:16px;margin:0 auto .75rem;display:flex;align-items:center;justify-content:center}
+.partner-initial{font-size:1.5rem;font-weight:700}
 .partner-name{font-size:.85rem;font-weight:600;color:var(--text)}
 .partner-name-en{font-size:.7rem;color:var(--text3);margin-top:.2rem}
 .partner-cat{margin-bottom:2rem}
@@ -189,30 +189,175 @@ body{font-family:'Inter','Noto Sans SC',sans-serif;background:var(--bg);color:va
 </section>
 
 <section class="partners-grid">
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="38" fill="#660874"/><text x="40" y="49" text-anchor="middle" font-family="serif" font-weight="900" font-size="28" fill="#fff">清</text></svg></div><div class="partner-name">清华大学</div><div class="partner-name-en">Tsinghua University</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#8B0000"/><text x="40" y="51" text-anchor="middle" font-family="serif" font-weight="900" font-size="30" fill="#fff">北</text></svg></div><div class="partner-name">北京大学</div><div class="partner-name-en">Peking University</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="38" fill="#1a3a8a"/><text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="24" fill="#fff">UCAS</text></svg></div><div class="partner-name">中国科学院大学</div><div class="partner-name-en">UCAS</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#C41E3A"/><text x="40" y="50" text-anchor="middle" font-family="serif" font-weight="900" font-size="30" fill="#fff">山</text></svg></div><div class="partner-name">山东大学</div><div class="partner-name-en">Shandong University</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="38" fill="#004B87"/><text x="40" y="49" text-anchor="middle" font-family="serif" font-weight="900" font-size="28" fill="#fff">海</text></svg></div><div class="partner-name">中国海洋大学</div><div class="partner-name-en">Ocean Univ. of China</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#006633"/><text x="40" y="48" text-anchor="middle" font-family="serif" font-weight="900" font-size="24" fill="#fff">石大</text></svg></div><div class="partner-name">中国石油大学(华东)</div><div class="partner-name-en">China Univ. of Petroleum</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="38" fill="#B22222"/><text x="40" y="51" text-anchor="middle" font-family="serif" font-weight="900" font-size="30" fill="#fff">交</text></svg></div><div class="partner-name">上海交通大学</div><div class="partner-name-en">Shanghai Jiao Tong Univ.</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#0052D9"/><text x="40" y="39" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="16" fill="#fff">PIAO</text><text x="40" y="57" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="14" fill="#fff">VISION</text></svg></div><div class="partner-name">上海漂视网络</div><div class="partner-name-en">Piaovision Technology</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#0066CC"/><text x="40" y="49" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="26" fill="#fff">Haier</text></svg></div><div class="partner-name">青岛海尔</div><div class="partner-name-en">Haier Group</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#C91623"/><text x="40" y="52" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="38" fill="#fff">JD</text></svg></div><div class="partner-name">北京京东</div><div class="partner-name-en">JD.com</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="38" fill="#003399"/><text x="40" y="40" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="20" fill="#fff">CASC</text><text x="40" y="60" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="10" fill="#fff">航天科技</text></svg></div><div class="partner-name">中国航天科技集团</div><div class="partner-name-en">CASC</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#009944"/><text x="40" y="50" text-anchor="middle" font-family="serif" font-weight="900" font-size="30" fill="#fff">移</text></svg></div><div class="partner-name">中国移动</div><div class="partner-name-en">China Mobile</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="38" fill="#8B6914"/><text x="40" y="48" text-anchor="middle" font-family="serif" font-weight="900" font-size="24" fill="#fff">教委</text></svg></div><div class="partner-name">北京市教委</div><div class="partner-name-en">Beijing Education Commission</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#1a1a1a"/><text x="40" y="52" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="38" fill="#fff">EPIC</text></svg></div><div class="partner-name">Epic Games</div><div class="partner-name-en">Epic Games</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#0078D4"/><text x="40" y="42" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="18" fill="#fff">Azure</text><text x="40" y="62" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="9" fill="#fff">Microsoft</text></svg></div><div class="partner-name">Microsoft Azure</div><div class="partner-name-en">Microsoft Azure</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#CF0A2C"/><text x="40" y="50" text-anchor="middle" font-family="serif" font-weight="900" font-size="30" fill="#fff">华</text></svg></div><div class="partner-name">华为云</div><div class="partner-name-en">Huawei Cloud</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#C7162B"/><text x="40" y="50" text-anchor="middle" font-family="serif" font-weight="900" font-size="28" fill="#fff">网易</text></svg></div><div class="partner-name">网易游戏</div><div class="partner-name-en">NetEase Games</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#0052D9"/><text x="40" y="50" text-anchor="middle" font-family="serif" font-weight="900" font-size="28" fill="#fff">腾讯</text></svg></div><div class="partner-name">腾讯游戏</div><div class="partner-name-en">Tencent Games</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#0078D4"/><text x="40" y="46" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="22" fill="#fff">完美</text><text x="40" y="64" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="9" fill="#fff">世界</text></svg></div><div class="partner-name">完美世界</div><div class="partner-name-en">Perfect World</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#1a1a1a"/><text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="20" fill="#fff">游戏</text><text x="40" y="66" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="11" fill="#fff">科学</text></svg></div><div class="partner-name">游戏科学</div><div class="partner-name-en">Game Science</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#004d99"/><text x="40" y="50" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="24" fill="#fff">BIAD</text></svg></div><div class="partner-name">北京建筑设计研究院</div><div class="partner-name-en">BIAD</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="38" fill="#0066CC"/><text x="40" y="48" text-anchor="middle" font-family="serif" font-weight="900" font-size="24" fill="#fff">龙岗</text></svg></div><div class="partner-name">深圳龙岗大数据中心</div><div class="partner-name-en">Longgang Data Center</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#0077B6"/><text x="40" y="50" text-anchor="middle" font-family="serif" font-weight="900" font-size="28" fill="#fff">三峡</text></svg></div><div class="partner-name">三峡高科</div><div class="partner-name-en">Three Gorges Tech</div></div>
-<div class="partner-item"><div class="partner-logo-svg"><svg viewBox="0 0 80 80"><rect width="80" height="80" rx="16" fill="#0055A4"/><text x="40" y="44" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="18" fill="#fff">电数</text><text x="40" y="64" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="9" fill="#fff">科技</text></svg></div><div class="partner-name">北京电子数智科技</div><div class="partner-name-en">Beijing EDT</div></div>
+
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(99, 70%, 90%); color:hsl(99, 60%, 35%)">
+            <span class="partner-initial">清</span>
+        </div>
+        <div class="partner-name">清华大学</div>
+        <div class="partner-name-en">Tsinghua</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(49, 70%, 90%); color:hsl(49, 60%, 35%)">
+            <span class="partner-initial">北</span>
+        </div>
+        <div class="partner-name">北京大学</div>
+        <div class="partner-name-en">PKU</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(266, 70%, 90%); color:hsl(266, 60%, 35%)">
+            <span class="partner-initial">中</span>
+        </div>
+        <div class="partner-name">中国科学院大学</div>
+        <div class="partner-name-en">UCAS</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(359, 70%, 90%); color:hsl(359, 60%, 35%)">
+            <span class="partner-initial">山</span>
+        </div>
+        <div class="partner-name">山东大学</div>
+        <div class="partner-name-en">SDU</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(334, 70%, 90%); color:hsl(334, 60%, 35%)">
+            <span class="partner-initial">中</span>
+        </div>
+        <div class="partner-name">中国海洋大学</div>
+        <div class="partner-name-en">OUC</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(338, 70%, 90%); color:hsl(338, 60%, 35%)">
+            <span class="partner-initial">中</span>
+        </div>
+        <div class="partner-name">中国石油大学(华东)</div>
+        <div class="partner-name-en">UPC</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(163, 70%, 90%); color:hsl(163, 60%, 35%)">
+            <span class="partner-initial">上</span>
+        </div>
+        <div class="partner-name">上海交通大学</div>
+        <div class="partner-name-en">SJTU</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(331, 70%, 90%); color:hsl(331, 60%, 35%)">
+            <span class="partner-initial">上</span>
+        </div>
+        <div class="partner-name">上海漂视网络</div>
+        <div class="partner-name-en">Piaovision</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(292, 70%, 90%); color:hsl(292, 60%, 35%)">
+            <span class="partner-initial">青</span>
+        </div>
+        <div class="partner-name">青岛海尔</div>
+        <div class="partner-name-en">Haier</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(275, 70%, 90%); color:hsl(275, 60%, 35%)">
+            <span class="partner-initial">北</span>
+        </div>
+        <div class="partner-name">北京京东</div>
+        <div class="partner-name-en">JD.com</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(358, 70%, 90%); color:hsl(358, 60%, 35%)">
+            <span class="partner-initial">中</span>
+        </div>
+        <div class="partner-name">中国航天科技集团</div>
+        <div class="partner-name-en">CASC</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(180, 70%, 90%); color:hsl(180, 60%, 35%)">
+            <span class="partner-initial">中</span>
+        </div>
+        <div class="partner-name">中国移动</div>
+        <div class="partner-name-en">China Mobile</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(1, 70%, 90%); color:hsl(1, 60%, 35%)">
+            <span class="partner-initial">北</span>
+        </div>
+        <div class="partner-name">北京市教委</div>
+        <div class="partner-name-en">Beijing Education</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(4, 70%, 90%); color:hsl(4, 60%, 35%)">
+            <span class="partner-initial">E</span>
+        </div>
+        <div class="partner-name">Epic Games</div>
+        <div class="partner-name-en">Unreal Engine</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(137, 70%, 90%); color:hsl(137, 60%, 35%)">
+            <span class="partner-initial">M</span>
+        </div>
+        <div class="partner-name">Microsoft Azure</div>
+        <div class="partner-name-en">Azure</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(339, 70%, 90%); color:hsl(339, 60%, 35%)">
+            <span class="partner-initial">华</span>
+        </div>
+        <div class="partner-name">华为云</div>
+        <div class="partner-name-en">Huawei Cloud</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(35, 70%, 90%); color:hsl(35, 60%, 35%)">
+            <span class="partner-initial">网</span>
+        </div>
+        <div class="partner-name">网易游戏</div>
+        <div class="partner-name-en">NetEase</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(298, 70%, 90%); color:hsl(298, 60%, 35%)">
+            <span class="partner-initial">腾</span>
+        </div>
+        <div class="partner-name">腾讯游戏</div>
+        <div class="partner-name-en">Tencent</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(133, 70%, 90%); color:hsl(133, 60%, 35%)">
+            <span class="partner-initial">完</span>
+        </div>
+        <div class="partner-name">完美世界</div>
+        <div class="partner-name-en">Perfect World</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(334, 70%, 90%); color:hsl(334, 60%, 35%)">
+            <span class="partner-initial">游</span>
+        </div>
+        <div class="partner-name">游戏科学</div>
+        <div class="partner-name-en">Game Science</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(95, 70%, 90%); color:hsl(95, 60%, 35%)">
+            <span class="partner-initial">北</span>
+        </div>
+        <div class="partner-name">北京建筑设计研究院</div>
+        <div class="partner-name-en">BIAD</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(289, 70%, 90%); color:hsl(289, 60%, 35%)">
+            <span class="partner-initial">深</span>
+        </div>
+        <div class="partner-name">深圳市龙岗区大数据中心</div>
+        <div class="partner-name-en">Longgang</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(168, 70%, 90%); color:hsl(168, 60%, 35%)">
+            <span class="partner-initial">三</span>
+        </div>
+        <div class="partner-name">三峡高科</div>
+        <div class="partner-name-en">Three Gorges</div>
+    </div>
+    <div class="partner-item">
+        <div class="partner-logo" style="background:hsl(153, 70%, 90%); color:hsl(153, 60%, 35%)">
+            <span class="partner-initial">北</span>
+        </div>
+        <div class="partner-name">北京电子数智科技</div>
+        <div class="partner-name-en">BDET</div>
+    </div>
 </section>
 
 <footer class="footer" id="contact">
